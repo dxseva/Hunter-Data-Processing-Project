@@ -3,6 +3,7 @@ This project contains a series of Bash scripts used to extract, transform, clean
 
 
 ## 📁 Project Structure
+```
 src/
 ├── ex00/
 │ ├── hh.json # Raw vacancy data
@@ -23,7 +24,7 @@ src/
 ├── ex05/
 │ ├── concatenator.sh # Merges multiple CSVs
 │ └── partitioner.sh # Splits CSV into parts
-
+```
 
 ## 🛠️ Requirements
 
@@ -35,7 +36,7 @@ To install `jq`:
 
 ```bash
 sudo apt-get install jq
-
+```
 🚀 Usage
 
 Run each step from the src/ directory.
@@ -61,6 +62,6 @@ chmod +x ex*/*.sh
 
 🧑‍💻 Author
 
-Seva
+Sevinch Djabbarova
 
 Feel free to connect with me or contribute improvements!
